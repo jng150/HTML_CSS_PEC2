@@ -1,9 +1,7 @@
 import axios from 'axios';
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.location.href.includes('detallePersonaje')) {
-        cargarDatosApi();
-    }
+    cargarDatosApi();
 });
 
 function cargarDatosApi() {
