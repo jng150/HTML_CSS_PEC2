@@ -9,7 +9,9 @@
     "detallePersonaje.html",
     "detalleTemporada.html",
     "javascript/carrusel.js",
-    "javascript/script.js",
+    "javascript/personaje.js",
+    "javascript/temporada.js",
+    "javascript/repeat-image.js",
     "css/style.css"
   ],
   "browserslist": "> 0.5%, last 2 versions, not dead",
