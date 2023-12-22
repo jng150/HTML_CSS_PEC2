@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    console.log("hola");
+    console.log(window.location.href);
     if (window.location.href.includes('index')) {
         console.log("adeu");
         repeatImage();
