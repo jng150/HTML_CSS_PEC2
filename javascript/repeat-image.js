@@ -7,7 +7,8 @@ function repeatImage() {
     var imageContainerLeft = document.querySelector('.image-container-left');
     var imageContainerRight = document.querySelector('.image-container-right');
 
-    var imagePath = document.getElementById("decorationImage").src;
+    var imagePath = document.getElementsByClassName("decorationImage")[0].src;
+
     var imageUrl = imagePath.substring(imagePath.indexOf('/trono'));;
 
     for (let i = 0; i < 11; i++) {
